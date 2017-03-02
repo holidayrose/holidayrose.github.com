@@ -3,6 +3,7 @@ body{
     color:#FFF;
     text-shadow:2px 2px 0 #64b1c6;
     text-align: center;
+    overflow-x:hidden;
 }
 #menu{
     width:350px;
