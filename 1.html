@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div class="vjs-poster" tabindex="-1" aria-disabled="false" style="background-image: url('http://publish-pic-cpu.baidu.com/42d0b3e6-df29-46b8-af10-5ddeb2351725.jpeg@q_90|w_476,h_268');"></div>
+<script>
+    $(function(){
+        var url = $(".vjs-poster").css("backgroundImage").replace('url(','').replace(')','');
+        console.log(url);
+    });
+</script>
+</body>
+</html>
